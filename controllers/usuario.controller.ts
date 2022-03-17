@@ -10,7 +10,7 @@ export const getUsuario = (req: Request, res: Response) => {
   const { id } = req.params;
 
   res.json({
-    msg: "getUsuarios",
+    msg: "getUsuario",
     id,
   });
 };
@@ -19,7 +19,7 @@ export const postUsuario = (req: Request, res: Response) => {
   const { body } = req;
 
   res.json({
-    msg: "getUsuarios",
+    msg: "postUsuarios",
     body,
   });
 };
@@ -29,7 +29,7 @@ export const putUsuario = (req: Request, res: Response) => {
   const { body } = req;
 
   res.json({
-    msg: "getUsuarios",
+    msg: "putUsuarios",
     body,
     id,
   });
@@ -39,7 +39,7 @@ export const deleteUsuario = (req: Request, res: Response) => {
   const { id } = req.params;
 
   res.json({
-    msg: "getUsuarios",
+    msg: "deleteUsuarios",
     id,
   });
 };
